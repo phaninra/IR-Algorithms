@@ -1,0 +1,15 @@
+--------------- K-Means algorithm --------------------------------
+
+1) Clustering is the process of grouping a set of objects into classes of similar objects
+   - Documents within a cluster should be similar.
+   - Documents from different clusters should be dissimilar.
+
+2) This algorithm Works based on vector space model.
+   - The relatedness between vectors is measured by Euclidean distance.
+   
+Algorithm
+ Objective: For any document d, minimize the squared distance from its cluster’s centroid.
+ 1) Select K random documents to act as seeds, i.e. initial cluster centroids.
+ 2) For each document d, measure the Euclidean distance with all centroids, assign the doc to the nearest cluster.
+ 3) Recompute the centroids for all clusters.
+ 4) Repeat from step 2 until the stopping criteria has been met (for ex, stabilized.)

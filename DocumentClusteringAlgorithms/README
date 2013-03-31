@@ -1,0 +1,5 @@
+- 3/30/2013
+- This project is an attempt to understand and implement all the clustering algorithms one by one. 
+- I am passionate about Information retrieval and am exploring all the subtopics one after another.
+- That's the reason for the parent package being ir.algo (information retrieval.algorithms) eventhough the individual algorithms are not purely IR-based algos.
+- Only K-Means algorithm is implemented as of now. More algorithms will be added in future.

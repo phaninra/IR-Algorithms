@@ -1,0 +1,24 @@
+----------------Cosine Similarity----------------
+
+Cosine similarity between two document (A, B) = (A . B) / (|A||B|)
+
+Ex: 
+D1: d a
+D2: a b c d
+
+Term weights
+  D1, D2
+a [1, 1]
+b [0, 1]
+c [0, 1]
+d [1, 1]
+
+Term weight vectors [assuming weight to be plain tf]
+[1, 0, 0, 1]
+[1, 1, 1, 1]
+
+Cosine similarity = (1 + 0 + 0 + 1) / (sqrt(2) * sqrt(4)) 
+                  = 2 / (2 + sqrt(2))
+
+
+
